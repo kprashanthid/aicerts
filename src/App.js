@@ -8,6 +8,7 @@ import Navitem from './components/Navitem';
 import Corousel from './components/Corousel';
 import EventTimer from './components/EventTimer';
 import Footer from './components/Footer';
+import Simages from './components/Simages';
 
 function App() {
   return (
@@ -28,7 +29,10 @@ function App() {
       <h1 >Countdown to Event</h1>
       <EventTimer eventDate="2024-06-08T00:00:00" />
     </div>
-    <Footer/>
+    <div className='section-image'>
+    <Simages/></div>
+    <div className='footer'>
+    <Footer/></div>
     <div className='coro-head1'></div>
     </>
   );

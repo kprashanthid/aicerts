@@ -65,9 +65,7 @@ left: 200px;
 color: #fff;
   text-shadow: 1px 1px #333, 2px 2px #333, 3px 3px #333;
 }
-.coro-head1{
-  height: 1000px;
-}
+
 .event{
   color: white;
   border: 2px solid white;
@@ -111,5 +109,24 @@ color: #fff;
 
 .footer-content p {
   margin: 10px 0;
+}
+.image-col {
+  margin-bottom: 20px; /* Add some space between the images */
+  padding: 10px; /* Add padding around the images */
+}
+
+.image-col img {
+  width: 100%;
+  border: 2px solid #ddd; /* Add a border around the images */
+  border-radius: 8px; /* Add border radius for rounded corners */
+}
+
+@media (min-width: 768px) {
+  .image-col {
+    margin-bottom: 0;
+  }
+}
+.section-image , .footer{
+  margin: 150px 0px 0px 0px;
 }
 
